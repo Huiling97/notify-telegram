@@ -1,3 +1,5 @@
+import config
+
 # This is a basic workflow to help you get started with Actions
 
 name: do-stuff
@@ -35,4 +37,4 @@ jobs:
         df -h
         which wget
         which curl
-        curl -X POST -H "Content-Type: application/json" -d '{"value1":"","value2":"","value3":""}' https://maker.ifttt.com/trigger/devops3/with/key/k9VvAtBb7S7ZI2UTxTf3lk2H7LYllSoJuryAqzwLVWL
+        curl -X POST -H "Content-Type: application/json" -d '{"value1":"","value2":"","value3":""}' https://maker.ifttt.com/trigger/devops3/with/key/config.key
